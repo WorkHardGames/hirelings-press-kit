@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hirelings: Press Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze:wght@600;900&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#17120F;
+  --text:#EFE7E0;
+  --grey:#9B8E85;
+  --line:#3A302A;
+  --red:#E8552F;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+
+.wrap{max-width:880px;margin:0 auto;padding:0 28px 96px}
+
+.top{padding:56px 0 0;margin-bottom:78px}
+.top h1{margin:0 0 16px}
+.top h1 img{display:block;width:300px;max-width:70vw;height:auto}
+.top p{margin:0;font-size:17px;color:var(--grey)}
+
+section{margin-top:78px}
+section:first-of-type{margin-top:0}
+
+h2,h3{font-family:Grenze,Georgia,serif;font-weight:900}
+h2{font-size:27px;margin:0 0 18px;letter-spacing:.01em}
+h3{font-size:20px;margin:28px 0 9px}
+h3:first-of-type{margin-top:20px}
+
+p{margin:0 0 14px;max-width:70ch}
+p:last-child{margin-bottom:0}
+a{color:var(--red)}
+
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+li{max-width:66ch}
+
+.facts{border-collapse:collapse;width:100%;max-width:640px}
+.facts th,.facts td{border:1px solid var(--line);padding:9px 14px;vertical-align:top}
+.facts th{width:180px;text-align:left;font-weight:400;color:var(--grey)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.grid a{display:block;line-height:0}
+.grid img{display:block;width:100%;height:auto}
+
+.chars{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:20px;align-items:end}
+.chars a{display:block;line-height:0}
+.chars img{display:block;width:100%;height:auto}
+
+.video{position:relative;height:0;padding-bottom:56.25%;overflow:hidden}
+.video iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+
+.btnrow{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:4px}
+a.dl{
+  display:inline-block;
+  padding:11px 22px;
+  border:1px solid var(--red);
+  color:var(--red);
+  font-weight:600;
+  text-decoration:none;
+}
+a.dl:hover{background:var(--red);color:var(--bg)}
+
+footer{margin-top:82px;font-size:14.5px;color:var(--grey)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header class="top">
+  <h1><img src="images/logo/library-logo-1280x720-transparent.png" alt="Hirelings"></h1>
+  <p>Turn-based tactics roguelike fused with an auto-battler shop.</p>
+</header>
+
+<section>
+  <h2>Download the Press Kit</h2>
+  <div class="btnrow">
+    <a class="dl" href="https://drive.google.com/file/d/1SLd8xwKXBNqTfz-Kyz4m4OHqQzIOeOSM/view?usp=sharing">Download the Press Kit (38 MB)</a>
+    <a class="dl" href="https://drive.google.com/file/d/13XMrZXuF6Wa65jziN9Dj6qFQZhAFSxjr/view?usp=sharing">Download the trailer (220 MB)</a>
+  </div>
+</section>
+
+<section>
+  <h2>Trailer</h2>
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/bn4sVAQTwMw"
+            title="Hirelings — Announce Trailer" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section>
+  <h2>Screenshots</h2>
+  <div class="grid">
+    <a href="images/screenshots/screenshot-01.png"><img src="images/screenshots/screenshot-01.png"></a>
+    <a href="images/screenshots/screenshot-02.png"><img src="images/screenshots/screenshot-02.png"></a>
+    <a href="images/screenshots/screenshot-03.png"><img src="images/screenshots/screenshot-03.png"></a>
+    <a href="images/screenshots/screenshot-04.png"><img src="images/screenshots/screenshot-04.png"></a>
+    <a href="images/screenshots/screenshot-05.png"><img src="images/screenshots/screenshot-05.png"></a>
+    <a href="images/screenshots/screenshot-06.png"><img src="images/screenshots/screenshot-06.png"></a>
+    <a href="images/screenshots/screenshot-07.png"><img src="images/screenshots/screenshot-07.png"></a>
+    <a href="images/screenshots/screenshot-08.png"><img src="images/screenshots/screenshot-08.png"></a>
+    <a href="images/screenshots/screenshot-09.png"><img src="images/screenshots/screenshot-09.png"></a>
+  </div>
+</section>
+
+<section>
+  <h2>GIFs</h2>
+  <div class="grid">
+    <img src="images/gifs/merge.gif">
+    <img src="images/gifs/reroll.gif">
+    <img src="images/gifs/attack-of-opportunity.gif">
+    <img src="images/gifs/aoe.gif">
+    <img src="images/gifs/boss-fight.gif">
+    <img src="images/gifs/item-rewards.gif">
+  </div>
+</section>
+
+<section>
+  <h2>Fact sheet</h2>
+  <table class="facts">
+    <tr><th scope="row">Title</th><td>Hirelings</td></tr>
+    <tr><th scope="row">Developer</th><td>Work Hard Games</td></tr>
+    <tr><th scope="row">Publisher</th><td>Work Hard Games (self-published)</td></tr>
+    <tr><th scope="row">Platform</th><td>PC (Windows)</td></tr>
+    <tr><th scope="row">Release date</th><td>TBA</td></tr>
+    <tr><th scope="row">Price</th><td>TBA</td></tr>
+    <tr><th scope="row">Genre</th><td>Turn-based tactics / roguelike / auto-battler</td></tr>
+    <tr><th scope="row">Players</th><td>Single-player</td></tr>
+    <tr><th scope="row">Languages</th><td>English</td></tr>
+    <tr><th scope="row">Engine</th><td>Unity</td></tr>
+    <tr><th scope="row">Steam page</th><td><a href="https://store.steampowered.com/app/5141360/Hirelings">https://store.steampowered.com/app/5141360/Hirelings</a></td></tr>
+    <tr><th scope="row">Contact</th><td><a href="mailto:press@workhardgames.com">press@workhardgames.com</a></td></tr>
+    <tr><th scope="row">Bluesky</th><td><a href="https://bsky.app/profile/workhardgames.bsky.social">https://bsky.app/profile/workhardgames.bsky.social</a></td></tr>
+    <tr><th scope="row">X</th><td><a href="https://x.com/WorkHardGames">https://x.com/WorkHardGames</a></td></tr>
+    <tr><th scope="row">YouTube</th><td><a href="https://www.youtube.com/@WorkHardGames">https://www.youtube.com/@WorkHardGames</a></td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>About</h2>
+  <p>Hirelings is a turn-based tactics roguelike fused with an auto-battler shop. Hire, reroll, and merge mages, vampires, and others to form an overpowered party of mercenaries... then outsmart every enemy on the grid.</p>
+
+  <h3>Auto-battler shop + Turn-based tactics</h3>
+  <p>Between every fight you're in the shop. You manage, hire, and reroll characters, and when you have 3 duplicates of a character of the same level, you get a level-up. A levelled up character unlocks new abilities and is stronger overall.</p>
+  <p>When the fight starts, it doesn't play automatically. You activate every ability, move, and attack, when it's your turn.</p>
+
+  <h3>Experiment with builds</h3>
+  <p>Every character has 2 classes. For example Rogue Skirmisher is a Rogue, getting extra evasion, and a Skirmisher, getting extra movement, initiative, and a leap ability.</p>
+  <p>The more of the same class you have in your party, the stronger it becomes. Trying out different combinations of characters and classes makes for a different experience every run.</p>
+
+  <h3>Position matters</h3>
+  <p>If you move out of the reach of an enemy melee character, they get an attack of opportunity at you. If you position your melee fighters next to enemy casters and ranged units, you get an attack of opportunity anytime they try to cast a ranged ability. In other words, pay attention to how you position your characters in battle.</p>
+
+  <h3>Abilities are like puzzles</h3>
+  <p>Area-of-effect attacks are something both you and your enemy are capable of. Circumstances in the game will force you to think about how to tactically use these abilities to deal the most damage to the enemy.</p>
+
+  <h3>One run, 18 rounds</h3>
+  <p>The structure of the game consists of 18 battles. Every 3rd battle you fight a stronger enemy, a boss.</p>
+  <p>Losing a battle does not mean you lose the game, you start with 2 retries and can replenish them in the shop for gold.</p>
+  <p>There are 3 thematic chapters in the game: the forest, the bandit ruins, and the undead dungeon.</p>
+
+  <h3>Rewards</h3>
+  <p>When you beat a boss fight you get to pick an item. Items have unique passive effects, which can change the way you play the game and the direction of your build.</p>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <ul>
+    <li>Turn-based tactics</li>
+    <li>An auto-battler-style shop between fights: hire, reroll, merge, upgrade</li>
+    <li>18 rounds across 3 chapters, with a boss every third round</li>
+    <li>26 items that change how you play the game</li>
+    <li>34 characters, each combining two of 17 classes</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Art</h2>
+  <div class="chars">
+    <a href="images/art/partyShot.png"><img src="images/art/partyShot.png" alt="A full party of hirelings"></a>
+    <a href="images/art/sentinelShot.png"><img src="images/art/sentinelShot.png" alt="Sentinel"></a>
+    <a href="images/art/berserkerShot.png"><img src="images/art/berserkerShot.png" alt="Berserker"></a>
+    <a href="images/art/mageShot.png"><img src="images/art/mageShot.png" alt="Mage"></a>
+    <a href="images/art/archerShot.png"><img src="images/art/archerShot.png" alt="Archer"></a>
+  </div>
+</section>
+
+<section>
+  <h2>Key art and logo</h2>
+  <div class="grid">
+    <a href="images/keyart/main-capsule-1232x706.png"><img src="images/keyart/main-capsule-1232x706.png" alt="Main key art, 1232x706"></a>
+    <a href="images/keyart/header-capsule4-920x430.png"><img src="images/keyart/header-capsule4-920x430.png" alt="Wide key art, 920x430"></a>
+    <a href="images/keyart/youtube-thumbnail-bg-1280x720.png"><img src="images/keyart/youtube-thumbnail-bg-1280x720.png" alt="16:9 key art, 1280x720"></a>
+    <a href="images/keyart/library-capsule-600x900.png"><img src="images/keyart/library-capsule-600x900.png" alt="Portrait key art, 600x900"></a>
+    <a href="images/keyart/vertical-capsule-748x896.png"><img src="images/keyart/vertical-capsule-748x896.png" alt="Vertical key art, 748x896"></a>
+  </div>
+</section>
+
+<section>
+  <h2>About the developer</h2>
+  <p>Work Hard Games is a solo games developer from Serbia. Hirelings is their first
+    commercial game.</p>
+</section>
+
+<section>
+  <h2>Download the Press Kit</h2>
+  <div class="btnrow">
+    <a class="dl" href="https://drive.google.com/file/d/1SLd8xwKXBNqTfz-Kyz4m4OHqQzIOeOSM/view?usp=sharing">Download the Press Kit (38 MB)</a>
+    <a class="dl" href="https://drive.google.com/file/d/13XMrZXuF6Wa65jziN9Dj6qFQZhAFSxjr/view?usp=sharing">Download the trailer (220 MB)</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Review copies:</strong> Steam keys are available on request; email
+  <a href="mailto:press@workhardgames.com">press@workhardgames.com</a>.
+  I'm happy to answer questions, do interviews, or provide anything not covered here.</p>
+  <p>Hirelings is developed and published by Work Hard Games.</p>
+</footer>
+
+</div>
+</body>
+</html>
